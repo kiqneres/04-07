@@ -1,0 +1,35 @@
+
+  
+  #titulo {
+    color: white;
+  }
+  
+  .titulo2 {
+    color: rebeccapurple;
+  }
+  
+  .container {
+  
+    display: grid;
+   
+    grid-template-columns: auto auto ;
+    grid-template-rows: auto auto ;
+    grid-gap: 5px ;
+    column-gap: 5px;
+  }
+  
+  #image1, #image2, #image3, #image4, #image5,  #image6{
+      
+      background-color: blueviolet;
+      background-repeat: repeat;
+      background-size: 100%;
+     
+      height: 30vw;
+      width: 50vw;
+  }
+
+
+  #anima{
+    height: 200px;
+    width: 200px;
+  }
